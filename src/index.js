@@ -40,4 +40,5 @@ function handler(event) {
 
 function clearPage() {
   refs.listCountries.innerHTML = '';
+  refs.listCountries.style.listStyle = 'none';
 }
