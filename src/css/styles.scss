@@ -1,0 +1,38 @@
+.input {
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.coutries {
+  margin: 25px auto 0;
+  width: 500px;
+  list-style-type: none;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.country-img {
+  display: block;
+}
+
+.about-country {
+  list-style-type: none;
+}
+
+.list-elem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list-elem span {
+  font-weight: bold;
+}
